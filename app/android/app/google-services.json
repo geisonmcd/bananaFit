@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "830634635593",
+    "project_id": "bananafit-android",
+    "storage_bucket": "bananafit-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830634635593:android:8123dac4e120780972aa98",
+        "android_client_info": {
+          "package_name": "com.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830634635593-5liosdd4qe709iqfsiugf0ant67mc05k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7bvuKw_FQuXsFSmBAMsnKccw6W3UkAYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830634635593-5liosdd4qe709iqfsiugf0ant67mc05k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
