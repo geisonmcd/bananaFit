@@ -9,7 +9,7 @@ export default () => {
 
 	return (
 		<Container>
-			<Text>CHEGOU NESSA TELA AQUI</Text>
+			<Text>Timetable</Text>
 			<CustomButton onPress={() => navigation.navigate('Timetable')}>
 				<CustomButtonText>ADICIONAR QUADRO DE HORÁRIO</CustomButtonText>
 			</CustomButton>

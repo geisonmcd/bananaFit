@@ -13,9 +13,9 @@ export default () => {
 	useEffect(() => {
 
 		//Pula a fase do login
-		// navigation.reset({
-		// 	routes: [{name: 'MainTab'}]
-		// });
+		navigation.reset({
+			routes: [{name: 'MainTab'}]
+		});
 		
 		const checkToken = async () => {
 			const token = await AsyncStorage.getItem('token');

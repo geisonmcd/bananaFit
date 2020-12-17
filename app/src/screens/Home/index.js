@@ -13,7 +13,7 @@ export default () => {
 	return (
 		<Container>
 			<CustomButton onPress={() => navigation.navigate('Timetables')}>
-				<CustomButtonText>LOGIN</CustomButtonText>
+				<CustomButtonText>Vai pra Timetables</CustomButtonText>
 			</CustomButton>
 		</Container>
 	);

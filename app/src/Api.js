@@ -11,7 +11,6 @@ export default {
 			body: JSON.stringify({token})
 		});
 		const json = await req.json();
-		console.log(json);
 		return json;
 	},
 	signIn: async (email, password) => {

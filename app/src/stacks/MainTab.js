@@ -8,7 +8,8 @@ import Appointments from '../screens/Appointments';
 import Favorites from '../screens/Favorites';
 import Profile from '../screens/Profile';
 import Timetables from '../screens/Timetables';
-import CustomTabBar from '../components/CustomTabBar';
+import Timetable from '../screens/Timetable';
+// import CustomTabBar from '../components/CustomTabBar';
 
 const Tab = createBottomTabNavigator();
 const Drawer = createDrawerNavigator();
@@ -16,7 +17,7 @@ const Drawer = createDrawerNavigator();
 
 export default () => (
 	<Drawer.Navigator 
-		initialRouteName="Home"
+		initialRouteName="Timetables"
 		screenOptions={{
 			headerShown: true
 		}}
@@ -27,5 +28,6 @@ export default () => (
 		<Drawer.Screen name="Favorites" component={Favorites} />
 		<Drawer.Screen name="Profile" component={Profile} />
 		<Drawer.Screen name="Timetables" component={Timetables} />
+		<Drawer.Screen name="Timetable" component={Timetable} />
 	</Drawer.Navigator>
 );

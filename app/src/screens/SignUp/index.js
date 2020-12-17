@@ -41,7 +41,6 @@ export default () => {
 	const handleSignButtonClick = async () => {
 		if (emailField !== '' && emailField !== '' && passwordField !== '') {
 			let res = await Api.signUp(nameField, emailField, passwordField);
-			console.log(res);
 			if (res.token) {
 				await AsyncStorage.setItem('token', res.token);
 				userDispatch({
