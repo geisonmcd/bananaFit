@@ -1,12 +1,20 @@
-import React from 'react';
-import { Text } from 'react-native';
-import { Container } from './styles';
-
+import React, { useEffect } from 'react';
+import { Container, CustomButton, CustomButtonText } from './styles';
+import { useNavigation} from '@react-navigation/native';
 
 export default () => {
+
+	const navigation = useNavigation();
+
+	useEffect(() => {
+		// navigation.navigate('Timetables');
+	});
+
 	return (
 		<Container>
-			<Text>Home</Text>
+			<CustomButton onPress={() => navigation.navigate('Timetables')}>
+				<CustomButtonText>LOGIN</CustomButtonText>
+			</CustomButton>
 		</Container>
 	);
-}
+};
