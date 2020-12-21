@@ -9,9 +9,8 @@ export default () => {
 
 	return (
 		<Container>
-			<Text>Timetable</Text>
 			<CustomButton onPress={() => navigation.navigate('Timetable')}>
-				<CustomButtonText>ADICIONAR QUADRO DE HORÁRIO</CustomButtonText>
+				<CustomButtonText>ADICIONAR HORÁRIO</CustomButtonText>
 			</CustomButton>
 		</Container>
 	);

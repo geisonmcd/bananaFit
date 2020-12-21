@@ -17,7 +17,7 @@ const Drawer = createDrawerNavigator();
 
 export default () => (
 	<Drawer.Navigator 
-		initialRouteName="Timetables"
+		initialRouteName="Timetable"
 		screenOptions={{
 			headerShown: true
 		}}

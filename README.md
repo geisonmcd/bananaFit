@@ -1,7 +1,18 @@
 # bananafit
 
+Simplesmente cria os horários -> 
+7 as 8, 
+8 as 9, 
+12 as 13,
+assim por diante
+Salva isso num quadro de horários
 
-Primeira tela é fazer um cadastro de horários do professor.
+No dia anterior vai lá e gera aulas para uma data para o próximo dia segundo esse quadro de horários
+Olha como ficou isso em uma agenda, se tá bom os horários
+Libera para agendamento por parte dos alunos
+
+
+
 
 
 #TELA QUADROS DE HORÁRIOS
